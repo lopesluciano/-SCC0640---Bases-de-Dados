@@ -1,4 +1,4 @@
-# Meu Projeto PostgreSQL com Docker
+# Projeto PostgreSQL com Docker
 
 Este é um projeto para configurar um banco de dados PostgreSQL usando Docker.
 
