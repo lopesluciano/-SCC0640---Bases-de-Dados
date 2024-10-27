@@ -32,3 +32,7 @@ OBS: Para desativar o docker
 ```bash
 sudo docker stop postgres
 ```
+
+## Como Instalar PostgreSQL (Debian e Ubuntu)
+
+## Como Instalar Docker (Debian e Ubuntu)
