@@ -30,5 +30,5 @@ sudo docker-compose up -d
 OBS: Para desativar o docker 
 
 ```bash
-docker stop postgres
+sudo docker stop postgres
 ```
