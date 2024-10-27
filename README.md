@@ -25,3 +25,10 @@ sudo docker-compose up -d
 ```
 
 4.Acesse o banco de dados usando o DBeaver ou outra ferramenta de sua escolha.
+
+
+OBS: Para desativar o docker 
+
+```bash
+docker stop postgres
+```
