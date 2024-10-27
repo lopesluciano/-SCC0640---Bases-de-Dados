@@ -14,6 +14,7 @@ Este é um projeto para configurar um banco de dados PostgreSQL usando Docker.
 ```bash
 cd meu-projeto-postgres
 
+
 3.Inicie o container do PostgreSQL:
 
 ```bash
