@@ -21,7 +21,7 @@ cd meu-projeto-postgres
 3.Inicie o container do PostgreSQL:
 
 ```bash
-docker-compose up -d
+sudo docker-compose up -d
 ```
 
 4.Acesse o banco de dados usando o DBeaver ou outra ferramenta de sua escolha.
