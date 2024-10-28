@@ -7,7 +7,7 @@ Este é um projeto para configurar um banco de dados PostgreSQL usando Docker.
 1. Clone este repositório:
 
  ```bash
- git clone https://github.com/lopesluciano/-SCC0640---Bases-de-Dados/edit/master/README.md
+ git clone https://github.com/lopesluciano/-SCC0640---Bases-de-Dados
 ```
 
 
