@@ -130,7 +130,13 @@ sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
-Passo 8: Verifique a instalação
+Passo 8: Instalar Docker Compose
+
+```bash
+sudo apt install docker-compose
+```
+
+Passo 9: Verifique a instalação
 
 Para verificar se o Docker está instalado e em execução, você pode executar:
 
