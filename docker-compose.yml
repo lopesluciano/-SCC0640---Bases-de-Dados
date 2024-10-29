@@ -4,6 +4,7 @@ services:
      container_name: postgres
      volumes:
        - /tmp/postgres:/var/lib/postgresql/data
+       - ./scripts/:/docker-entrypoint-initdb.d/
      environment:
        - POSTGRES_USER=postgres
        - POSTGRES_PASSWORD=Postgres2018!
