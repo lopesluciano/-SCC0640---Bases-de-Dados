@@ -37,11 +37,24 @@ OBS: Para desativar o docker
 sudo docker stop postgres
 ```
 
+OBS: Se algum processo ja estiver usando a porta 5432
+
+Verificar o processo atual usando a porta 5432: Execute o seguinte comando para identificar qual processo está usando a porta:
+
+```bash
+sudo lsof -i :5432
+```
+Se encontrar um processo PostgreSQL ou outro serviço que você possa parar, use o comando:
+
+```bash
+sudo kill <PID>
+```
+
 ## Como Instalar PostgreSQL (Debian e Ubuntu)
 
 Para instalar o cliente PostgreSQL no Ubuntu, você pode seguir estes passos:
 
-    Atualize a lista de pacotes:
+Atualize a lista de pacotes:
 
 ```bash
 sudo apt update
